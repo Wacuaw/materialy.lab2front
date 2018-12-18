@@ -1,0 +1,23 @@
+.header{
+
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: coral;
+}
+
+.header a {
+
+    color: cyan;
+}
+
+.menu a {
+    font-size: 1.7em;
+    margin: 20px 20px 20px 20px;
+    text-decoration: none;
+
+}
+
+.menu{
+    align-self: center;
+}

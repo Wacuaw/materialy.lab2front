@@ -3,22 +3,29 @@
     atrybuty do wykorzystania:
         font-family: "Arial Narrow";
 */
-
+p, i{
+    font-family: "Arial Narrow";
+}
 
 /*
     Dla nagłówka h1 o id header ustaw kolor czcionki na czerwony
     atrybuty do wykorzystania:
         color: red;
 */
-
+#header {
+    color: red;
+}
 
 /*
-    Dla elementu blokowego o klasie box ustaw wysokość i kolor tła
+    Dla elementu blokowego o klasie container ustaw wysokość i kolor tła
     atrybuty do wykorzystania:
         height: 100px;
         background-color: grey;
-
 */
+.container{
+    height: 100px;
+    background-color: grey;
+}
 
 
 /*
@@ -26,6 +33,9 @@
     atrybuty do wykorzystania:
         color: white;
 */
+/*.container p {*/
+    /*color: white;*/
+/*}*/
 
 
 /*
@@ -34,6 +44,13 @@
         font-size: 1.5em;
 */
 
+.container p {
+    font-size: 1.5em;
+}
+.container > p {
+    font-size: 1em;
+}
+
 
 /*
     Dla pierwszego elementu o klasie listHeader w elemencie blokowym o klasie colorList ustaw kolor tła oraz kolor czcionki
@@ -41,6 +58,10 @@
     background-color: #131326;
     color: white;
 */
+.colorList.listHeader {
+    background-color: #131326;
+    color: white;
+}
 
 
 /*
